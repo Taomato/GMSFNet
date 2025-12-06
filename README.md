@@ -14,6 +14,6 @@ The primary programming languages used in this project are:
 To run this project, you will need the following software:
 
 - **Python 3.12.3**: Ensure that Python is installed and accessible in your environment.
-- **PyTorch 2.0.0+cu118**: PyTorch is used as the deep learning framework. Installation will depend on your hardware configuration (CPU or GPU). See the [Installation](#installation) section for more details.
+- **PyTorch 2.0.0+cu118**: PyTorch is used as the deep learning framework. Installation will depend on your hardware configuration (CPU or GPU). 
 - **Anaconda/Miniconda (optional)**: Recommended for managing Python environments.
 - **CUDA (optional, for GPU acceleration)**: If you are using GPU, you will need the correct CUDA version installed for PyTorch.
