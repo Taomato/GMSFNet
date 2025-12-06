@@ -19,7 +19,7 @@ To run this project, you will need the following software:
 - **CUDA (optional, for GPU acceleration)**: If you are using GPU, you will need the correct CUDA version installed for PyTorch.
 
 ## Data
-- **The data is a self-made multi-source water body dataset, which can be provided according to requirements
+- The data is a self-made multi-source water body dataset, which can be provided according to requirements
 ## License
 
 This project is licensed under the MIT License
