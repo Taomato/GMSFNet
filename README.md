@@ -20,7 +20,7 @@ To run this project, you will need the following software:
 ## Usage
 This repository provides the implementation of the semantic segmentation model
 (`GMSFNet.py`), the loss function (`loss.zip`), the evaluation/inference script
-(`evaluator.py`), and a small test dataset (`test_sample.zip`).
+(`evaluator.py`), and a small test dataset (`test_sample.zip`) and the prediction results of the test set(`test_reslut_predict.zip`)
 
 
 ## Data
