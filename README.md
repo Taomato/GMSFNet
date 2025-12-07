@@ -21,7 +21,17 @@ To run this project, you will need the following software:
 This repository provides the implementation of the semantic segmentation model
 (`GMSFNet.py`), the loss function (`loss.zip`), the evaluation/inference script
 (`evaluator.py`), and a small test dataset (`test_sample.zip`) and the prediction results of the test set(`test_reslut_predict.zip`)
-
+ 
+## Contents of this repository
+GMSFNet.py: implementation of the proposed semantic segmentation model GMSFNet.
+loss.zip: loss function implementation used in training GMSFNet.
+Please unzip it to obtain loss.py (or a loss/ folder), which is imported by the model/training code.
+evaluator.py: evaluation and inference script. It loads a trained GMSFNet model,
+runs inference on the test dataset, computes metrics (IoU, F1, recall, precision, specificity),
+and saves prediction and comparison maps.
+test_sample.zip: a small subset of the test dataset used in the paper
+(sample test images and corresponding ground‑truth labels).
+test_result_predict.zip: prediction results of the test subset produced by the trained model in the paper.
 
 ## Data
 - The data is a self-made multi-source water body dataset, which can be provided according to requirements
