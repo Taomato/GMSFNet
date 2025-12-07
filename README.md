@@ -32,7 +32,7 @@ and saves prediction and comparison maps.
 test_sample.zip: a small subset of the test dataset used in the paper
 (sample test images and corresponding ground‑truth labels).
 test_result_predict.zip: prediction results of the test subset produced by the trained model in the paper.
-
+Pre-training weight too large to upload to GitHub
 ## Data
 - The data is a self-made multi-source water body dataset, which can be provided according to requirements
 ## License
