@@ -17,6 +17,12 @@ To run this project, you will need the following software:
 - **Anaconda/Miniconda (optional)**: Recommended for managing Python environments.
 - **CUDA (optional, for GPU acceleration)**: If you are using GPU, you will need the correct CUDA version installed for PyTorch.
 
+## Usage
+This repository provides the implementation of the semantic segmentation model
+(`GMSFNet.py`), the loss function (`loss.zip`), the evaluation/inference script
+(`evaluator.py`), and a small test dataset (`test_sample.zip`).
+
+
 ## Data
 - The data is a self-made multi-source water body dataset, which can be provided according to requirements
 ## License
